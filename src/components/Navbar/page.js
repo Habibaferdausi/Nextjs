@@ -1,9 +1,12 @@
 "use client";
 
+import { GlobalContext } from "@/context/page";
 import Image from "next/image";
 import Link from "next/link";
+import { useContext } from "react";
 
 export default function Navbar() {
+  const { showModal, setShowModal } = useContext(GlobalContext);
   return (
     <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200">
       <div className=" flex flex-wrap items-center justify-between mx-auto px-11 ">
