@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href="/login" className="mx-4">
             Login
           </Link>
-          <Link href="/signup" className="mx-4">
+          <Link href="/signin" className="mx-4">
             Signup
           </Link>
         </div>
